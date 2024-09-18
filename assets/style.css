@@ -1,0 +1,579 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    /* width: 100vw; */
+    /* height: 100vh; */
+    margin: 0 180px 0 180px;
+    /* background-color: aqua; */
+}
+
+
+.cabecalho,
+.cabecalho a {
+    height: 75px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row;
+    text-decoration: none;
+    color: black;
+}
+
+.lista {
+    /* background-color: blue; */
+    width: 800px;
+    margin-left: 27%;
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    justify-content: end;
+    list-style-type: none;
+    gap: 15px;
+    text-decoration: none;
+
+
+}
+
+.nome {
+    /* background-color: red; */
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-self: flex-start;
+    gap: 10px;
+    flex-flow: row nowrap;
+}
+
+
+.inicio__texto {
+    font-size: 43px;
+    margin-right: 500px;
+    margin: 1px;
+    display: flex;
+    max-width: 750px;
+    text-align: start;
+}
+
+.descricao {
+    font-size: 22px;
+    margin-right: 500px;
+    margin: 1px;
+    display: flex;
+    max-width: 750px;
+    text-align: start;
+    margin-bottom: 128px;
+}
+
+.inicio {
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inicio__inicio {
+    /* background-color: red; */
+    display: flex;
+    max-width: 900px;
+    flex-flow: wrap column;
+    align-items: flex-start;
+}
+
+.image{
+    margin-top: 25%;
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    /* background-color: red; */
+    width: 78%;
+    height: 250px;
+    align-items: center;
+}
+
+.image img {
+    display: flex;
+    width: 35%;
+    position: absolute;
+    justify-content: center;
+}
+
+
+#sobre__mim h1 {
+    font-size: 32px;
+}
+
+#sobre__mim p {
+    text-align: justify;
+    max-width: 750px;
+    margin-bottom: 64px;
+}
+
+
+#skills__lista {
+    /* background-color: red; */
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills__lista__itens {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    font-size: 19px;
+    gap: 25px;
+    margin-bottom: 64px;
+    cursor: pointer;
+
+}
+
+.skills {
+    display: flex;
+    background-color: rgb(94, 94, 94);
+    width: 100%;
+    height: 78px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    gap: 8px;
+    font-size: 1.7rem;
+    color: #0DF954;
+
+}
+
+.hobbies__titulo {
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* background-color: red; */
+}
+
+.hobbies__texto__2 {
+    display: flex;
+    gap: 8px;
+    height: 150px;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    font-size: 1.7rem;
+    color: #0DF954;
+    gap: 12px;
+    cursor: pointer;
+
+}
+
+.hobbies {
+    display: flex;
+    width: 100%;
+    height: 95px;
+    font-size: 1.7rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    flex-flow: column;
+    background-color: rgb(94, 94, 94);
+}
+
+.hobbies i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+
+}
+
+.hobbies__container {
+    margin-bottom: 64px;
+}
+
+#formacao__academica {
+    display: flex;
+    font-size: 18px;
+
+}
+
+.formacao__academia__titulo {
+    width: 100vw;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+    align-items: center;
+}
+
+.formacao__cursos__cursos {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+    font-size: 22px;
+    margin-top: 12px;
+}
+
+.formacao__cursos {
+    margin-bottom: 64px;
+}
+
+#contato {
+    margin-top: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.mail__whats {
+    /* background-color: red; */
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 22px;
+    gap: 50px;
+    align-items: center;
+    flex-flow: row wrap;
+    font-size: 22px;
+    list-style-type: none;
+
+}
+
+.mail__whats a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #0DF954;
+    font-size: 22px;
+}
+
+
+
+
+.experiencia__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+.experiencia__lista {
+    margin-top: 10px;
+}
+
+#projetos__container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 64px;
+
+}
+
+.projetos__titulo h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.projetos__lista__nomes {
+    width: 950px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    text-decoration: none;
+    flex-flow: row wrap;
+    font-size: 22px;
+    gap: 30px;
+    list-style-type: none;
+
+}
+
+.projetos__lista__nomes a {
+    color: #0DF954;
+    text-align: justify;
+    gap: 8px;
+    align-items: center;
+    flex-shrink: 1;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+footer {
+    display: flex;
+    margin-top: 64px;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    height: 80px;
+}
+
+.projetos__lista__nomes,
+a:hover {
+    color: rgb(94, 94, 94);
+    transition: 0.4s;
+}
+
+.cabecalho a:hover {
+    color: #0DF954;
+    transition: 0.4s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Telas pequenas (até 600px) */
+@media (max-width: 600px) {
+    body {
+        margin: 0 10px;
+    }
+
+    .cabecalho, .cabecalho a {
+        height: 60px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .lista {
+        display: none;
+    }
+
+       
+    .nome {
+        flex-direction: row;
+        justify-content: center;
+        max-width: 100%;
+    }
+
+    .inicio__texto{
+        margin-top: 15%;
+        margin-right: 0;
+        font-size: 22px;
+    }
+
+    .descricao {
+        margin-right: 0;
+        font-size: 16px;
+    }
+
+    
+    .image{
+        display: flex;
+        /* background-color: #0DF954; */
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .image img {
+        /* background-color: red; */
+        border-radius: 40px;
+        display: flex;
+        width: 75%;
+        justify-content: center;
+        margin-bottom: 12%;
+      
+    }
+
+    
+    .skills__lista__itens{
+    display: flex;
+    /* width: 80%; */
+    flex-flow: column;
+    border-radius: 16px;
+    align-content: center;
+    gap: 5px;
+}
+
+.skills{
+    width: 70%;
+    height: 50px;
+    font-size: 22px;
+}
+
+    .hobbies__texto__2{
+        display: flex;
+        width: 100%;
+        /* background-color: red; */
+        flex-shrink: 1;
+        margin-bottom: 64px;
+}
+
+    .hobbies{
+        font-size: 12px;
+        display: flex;
+        /* justify-content: center; */
+        height: 45%;
+        width: 18%;
+        flex-flow: column wrap;
+    }
+
+    .hobbies:hover{
+        width: 20%;
+    }
+
+    #formacao__academica{
+        display: flex;
+        justify-content: center;
+        font-size: 80%;
+}
+
+.formacao__cursos__cursos {
+    font-size: 16px;
+}
+
+.experiencia__profissional{
+    font-size: 106%;
+}
+
+.experiencia__lista{
+    font-size: 16px;
+}
+
+.projetos__titulo h1 {
+    font-size: 25px;
+}
+
+.projetos__lista__nomes{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+
+#contato {
+  font-size: 80%;
+}
+
+.mail__whats{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    gap: 6px;
+
+}
+
+footer{
+    display: flex;
+    font-size: 12px;
+}
+
+
+
+}
+
+/* Telas médias (601px a 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    body {
+        margin: 0 50px;
+    }
+
+    .lista {
+        display: none;
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    .nome {
+        display: flex;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .inicio__texto {
+        margin-right: 200px;
+        font-size: 35px;
+    }
+
+    .descricao {
+        margin-right: 200px;
+        font-size: 18px;
+    }
+
+    .image img {
+        display: none;
+    }
+
+    .experiencia__profissional{
+        font-size: 106%;
+    }
+    
+    .experiencia__lista{
+        font-size: 16px;
+    }
+    
+    .projetos__titulo h1 {
+        font-size: 25px;
+    }
+    
+    .projetos__lista__nomes{
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        flex-flow: column wrap;
+    }
+    
+    #contato {
+      font-size: 80%;
+    }
+    
+    .mail__whats{
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        flex-flow: column wrap;
+        gap: 6px;
+    
+    }
+    
+    footer{
+        display: flex;
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1025px) {
+    body {
+        margin: 0 180px;
+    }
+
+    .inicio__texto {
+        font-size: 40px;
+        margin-right: 200px;
+        width: 600px;
+
+    }
+
+    .descricao {
+        font-size: 22px;
+        margin-right: 100px;
+        width: 600px;
+    }
+
+    .lista{
+        display: flex;
+        /* background-color: red; */
+        justify-content: center;
+        margin-left: 28%;
+    }
+}
